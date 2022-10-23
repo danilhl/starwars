@@ -1,0 +1,62 @@
+.UiButton_button__EBezb{
+    
+    padding: 10px;
+    min-width: 100px;
+    border-radius: 15px;
+    background-color: transparent;
+    cursor: pointer;
+    transition: var(--transition);
+    font-size: var(--font-size-small);
+    font-weight: var(--font-bold);
+    font-family: var(--font-famaly-main);
+    color: var(--color-purple);
+}
+
+.UiButton_button__EBezb:disabled,
+.UiButton_button__EBezb:disabled:hover{
+    color: var(--color-gray);
+    border-color: var(--color-gray);
+    cursor: auto;
+    background-color: transparent;
+}
+
+.UiButton_button__EBezb:hover{
+    background-color: var(--color-purple);
+}
+
+.UiButton_button__EBezb:active{
+    background-color: #753f86;
+}
+
+.UiButton_dark__jtjIo{
+    border: 2px solid var(--color-purple);
+    color: var(--color-white);
+}
+
+.UiButton_dark__jtjIo:hover{
+    color: var(--color-black);
+}
+
+.UiButton_light__3T5lD{
+    border: 2px solid var(--color-black);
+    color: var(--color-black);
+}
+
+.UiButton_light__3T5lD:hover{
+    color: var(--color-white);
+}
+:root{
+    --font-size-small: 14px;
+    --font-famaly-main:  'Josefin Sans', sans-serif;
+    --font-bold: 700;
+
+    --transition: .5s;
+
+    --color-white: #fff;
+    --color-black: #000;
+    --color-purple: #ae72c2;
+    --color-gray: #9c9c9c;
+
+}
+
+/*# sourceMappingURL=main.f3e489a1.css.map*/
